@@ -310,7 +310,11 @@ export default function ValentineProposal() {
                     >
                       You make my days brighter, my nights softer, and my heart
                       feel like it&apos;s floating. Thank you for being my favorite
-                      person, my comfort, and my sweetest adventure.
+                      person, my comfort, and my sweetest adventure. I love the
+                      way you laugh, the way you care, and the way you turn
+                      ordinary moments into memories I never want to forget.
+                      If love were a song, you would be the melody I want to
+                      play on repeat.
                     </p>
                   </div>
                 </div>
@@ -368,7 +372,7 @@ export default function ValentineProposal() {
                     </button>
                     <audio
                       ref={audioRef}
-                      src="/Love%20song.mp3"
+                      src="/love-song.mp3"
                       onEnded={() => setIsPlaying(false)}
                     />
                   </div>
